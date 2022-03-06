@@ -76,5 +76,83 @@ nav a{
     width: 100px;
 }
 
+/* Work section styling */
+.work-content{
+    overflow: hidden;
+    width: 100%;
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+    grid-gap: 10px;
+}
+.box1 {
+    position: relative;
+    background-image: url(/assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .box2 {
+    position: relative;
+    background-image: url(/assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+    background-size: cover;
+   
+  }
+  .box3 {
+    position: relative;
+    background-image: url(/assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+    background-size: cover;
+   
+  }
+  .box4{
+    position: relative;
+    background-image: url(/assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+    background-size: cover;
+  }
+  .box5{
+    position: relative;
+    background-image: url(/assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
+    background-size: cover;
+  }
+  .work-img{
+      cursor: pointer;
+      opacity: 0.8;
+  }
+  .work-img:hover{
+      opacity: 1;
+  }
+  .work-text{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+      display: inline-block;
+      background-color: aqua;
+      padding: 5px;
+  }
+  .work-text p{
+      font-size: 11px;
+  }
+
+  /* Contact section styling */
+  .contact-section{
+      align-self: center;
+  }
+  .contact-section ul{
+      width: 100%;
+      display: flex;
+      list-style: none;
+  }
+  .contact-section ul li{
+      padding-left: 20px;
+  }
+  .contact-section a{
+      text-decoration: none;
+  }
+  .contact-info{
+      border-bottom: 2px solid black;
+  }
 
 
