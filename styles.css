@@ -1,158 +1,174 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
-header{
-    background-color: gray;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
+header {
+  background-color: #31343d;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
 }
-.nav-left{
-    padding-top: 10px;
-    text-align: center;
+.nav-left {
+  padding-top: 10px;
+  text-align: center;
 }
-.nav-left h1{
-    background-color: rebeccapurple;
-    padding-left: 45px;
-    padding-right: 5px;
+.nav-left h1 {
+  background-color: #93cccc;
+  color: #31343d;
+  padding-left: 45px;
+  padding-right: 5px;
 }
-nav ul{
-    padding: 10px;
-    padding-right: 40px;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
+nav ul {
+  padding: 10px;
+  padding-right: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
 }
-nav ul li{
-    padding: 10px;
+nav ul li {
+  letter-spacing: 0.1em;
+  font-size: 13px;
+  padding: 10px;
 }
 nav a{
+    padding: 10px;
+    color: #93cccc;
     text-decoration: none;
 }
-.nav-right{
-    border-bottom: 3px solid black;
+nav:hover{
+    color: #31343d;
+}
+.nav-right {
+  border-bottom: 3px solid #93cccc;
 }
 
 /* Main image styling */
-.header-img{
-    background-image:url(/assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg) ;
-    background-size: cover;
-    height: 200px;
+.header-img {
+  background-image: url(/assets/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+  background-size: cover;
+  height: 200px;
 }
-.subtitle{
-    cursor: pointer;
-    float: right;
-    margin-top: 150px;
-    margin-right: 40px;
-    padding: 10px;
-    background-color: rebeccapurple;
+.subtitle {
+  cursor: pointer;
+  float: right;
+  margin-top: 140px;
+  margin-right: 40px;
+  padding: 10px;
+  background-color: #93cccc;
 }
-.subtitle a{
-    text-decoration: none;
-    color: aliceblue;
+.subtitle a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+  color: #31343d;
 }
 
 /* Main Information styling */
-.section-container{
-    display: flex;
-    margin-top: 20px;
-    padding-right: 40px;
+.section-container {
+  display: flex;
+  margin-top: 20px;
+  padding-right: 40px;
 }
-.section-title{
-    text-align: right;
-    padding: 10px;
-    border-right: 2px solid black;
+.section-title {
+  text-align: right;
+  padding: 10px;
+  border-right: 3px solid #405573;
 }
-.section-content{
-    padding-left: 20px;
+.section-content {
+  color: #405573;
+  font-size: 13px;
+  padding-left: 20px;
+  line-height: 1.3em;
 }
-.title-name{
-    width: 100px;
+.title-name {
+  color: #405573;
+  font-size: 30px;
+  width: 100px;
 }
 
 /* Work section styling */
-.work-content{
-    overflow: hidden;
-    width: 100%;
-    padding-left: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 200px;
-    grid-gap: 10px;
+.work-content {
+  overflow: hidden;
+  width: 100%;
+  padding-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 200px;
+  grid-gap: 10px;
 }
 .box1 {
-    position: relative;
-    background-image: url(/assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
-    background-size: cover;
-    grid-column-start: 1;
-    grid-column-end: 3;
-  }
-  .box2 {
-    position: relative;
-    background-image: url(/assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
-    background-size: cover;
-   
-  }
-  .box3 {
-    position: relative;
-    background-image: url(/assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
-    background-size: cover;
-   
-  }
-  .box4{
-    position: relative;
-    background-image: url(/assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
-    background-size: cover;
-  }
-  .box5{
-    position: relative;
-    background-image: url(/assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg);
-    background-size: cover;
-  }
-  .work-img{
-      cursor: pointer;
-      opacity: 0.8;
-  }
-  .work-img:hover{
-      opacity: 1;
-  }
-  .work-text{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-      display: inline-block;
-      background-color: aqua;
-      padding: 5px;
-  }
-  .work-text p{
-      font-size: 11px;
-  }
+  position: relative;
+  background-image: url(/assets/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+  background-size: cover;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.box2 {
+  position: relative;
+  background-image: url(/assets/caspar-camille-rubin-fPkvU7RDmCo-unsplash.jpg);
+  background-size: cover;
+}
+.box3 {
+  position: relative;
+  background-image: url(/assets/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg);
+  background-size: cover;
+}
+.box4 {
+  position: relative;
+  background-image: url(/assets/vitaly-sacred-AgZwKKtFi-k-unsplash.jpg);
+  background-size: cover;
+}
+.box5 {
+  position: relative;
+  background-image: url(/assets/leone-venter-VieM9BdZKFo-unsplash\ \(2\).jpg);
+  background-size: cover;
+}
+.work-img {
+  border: 2px solid #93cccc;
+  cursor: pointer;
+  opacity: 0.8;
+}
+.work-img:hover {
+  opacity: 1;
+}
+.work-text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  display: inline-block;
+  background-color: #92cbcd;
+  color: black;
+  padding: 5px;
+}
+.work-text p {
+  font-size: 11px;
+}
 
-  /* Contact section styling */
-  .contact-section{
-      align-self: center;
-  }
-  .contact-section ul{
-      width: 100%;
-      display: flex;
-      list-style: none;
-  }
-  .contact-section ul li{
-      padding-left: 20px;
-  }
-  .contact-section a{
-      text-decoration: none;
-  }
-  .contact-info{
-      border-bottom: 2px solid black;
-  }
-
-
+/* Contact section styling */
+.contact-section {
+  align-self: center;
+}
+.contact-section ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+}
+.contact-section ul li {
+  padding-left: 20px;
+}
+.contact-section a{
+    padding: 10px;
+    color: #31343d;
+  text-decoration: none;
+}
+.contact-info {
+  border-bottom: 3px solid #405573;
+}
