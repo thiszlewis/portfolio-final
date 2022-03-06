@@ -50,7 +50,7 @@ nav:hover{
 
 /* Main image styling */
 .header-img {
-  background-image: url(/assets/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+  background-image: url(assets/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
   background-size: cover;
   height: 200px;
 }
@@ -104,24 +104,24 @@ nav:hover{
 }
 .box1 {
   position: relative;
-  background-image: url(/assets/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
+  background-image: url(assets/joanna-kosinska-7ACuHoezUYk-unsplash.jpg);
   background-size: cover;
   grid-column-start: 1;
   grid-column-end: 3;
 }
 .box2 {
   position: relative;
-  background-image: url(/assets/caspar-camille-rubin-fPkvU7RDmCo-unsplash.jpg);
+  background-image: url(assets/caspar-camille-rubin-fPkvU7RDmCo-unsplash.jpg);
   background-size: cover;
 }
 .box3 {
   position: relative;
-  background-image: url(/assets/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg);
+  background-image: url(assets/michael-dziedzic-aQYgUYwnCsM-unsplash.jpg);
   background-size: cover;
 }
 .box4 {
   position: relative;
-  background-image: url(/assets/vitaly-sacred-AgZwKKtFi-k-unsplash.jpg);
+  background-image: url(assets/vitaly-sacred-AgZwKKtFi-k-unsplash.jpg);
   background-size: cover;
 }
 .box5 {
