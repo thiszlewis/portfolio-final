@@ -1,16 +1,80 @@
 * {
     margin: 0;
-   padding: 0%;
-   box-sizing: border-box; 
-   
-}
-
-body {
-    color: black;
+    padding: 0;
+    box-sizing: border-box; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+header{
+    background-color: gray;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+}
+.nav-left{
+    padding-top: 10px;
+    text-align: center;
+}
+.nav-left h1{
+    background-color: rebeccapurple;
+    padding-left: 45px;
+    padding-right: 5px;
+}
+nav ul{
+    padding: 10px;
+    padding-right: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+nav ul li{
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+}
+.nav-right{
+    border-bottom: 3px solid black;
+}
 
-    
+/* Main image styling */
+.header-img{
+    background-image:url(/assets/adrien-olichon-RCAhiGJsUUE-unsplash.jpg) ;
+    background-size: cover;
+    height: 200px;
+}
+.subtitle{
+    cursor: pointer;
+    float: right;
+    margin-top: 150px;
+    margin-right: 40px;
+    padding: 10px;
+    background-color: rebeccapurple;
+}
+.subtitle a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* Main Information styling */
+.section-container{
+    display: flex;
+    margin-top: 20px;
+    padding-right: 40px;
+}
+.section-title{
+    text-align: right;
+    padding: 10px;
+    border-right: 2px solid black;
+}
+.section-content{
+    padding-left: 20px;
+}
+.title-name{
+    width: 100px;
+}
+
 
 
